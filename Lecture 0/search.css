@@ -1,27 +1,53 @@
-h1 {
-  color: blue;
-  text-align: center;
-}
-
-form {
+.form {
   text-align: center;
 }
 
 .logo {
   display: block;
+  padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
   height: 150px;
 } 
 
+.advanced-logo {
+    display: block;
+    height: 50px;
+    padding-left: 10px;
+  } 
+
+.advanced-text-title {
+    padding-left: 40px;
+    padding-top: 25px;
+    color: rgb(206, 26, 26);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+.advanced-text {
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(63, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.advanced-form-text {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    color: rgb(63, 58, 58);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
 body {
-  padding-top: 100px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-top: 10px;
 }
 
 .right {
   float: right;
+  padding-right: 20px;
 }
 
 button {
@@ -38,11 +64,38 @@ button {
   border: 2px solid lightgray;
 }
 
-input {
+.advanced-button {
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: rgb(78, 122, 206);
+    border: 2px solid rgb(60, 107, 194);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 500px;
+  }
+  
+.advanced-button:hover {
+    background-color: rgb(60, 107, 194);
+  }
+
+.input {
   width: 50%;
   height: 40px;
   border-radius: 12px;
   border: 2px solid lightgray;
+}
+
+.advanced-input {
+    width: 500px;
+    height: 25px;
+    /* margin-left: 250px; */
+    border: 1px solid lightgray;
+    border-radius: 1px;
+    display: inline-table;
+    align-items: left;
 }
 
 
