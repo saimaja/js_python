@@ -7,12 +7,12 @@ form {
   text-align: center;
 }
 
-.center {
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-}
+  height: 150px;
+} 
 
 body {
   padding-top: 100px;
@@ -32,18 +32,17 @@ button {
   background-color: whitesmoke;
   border: 2px solid whitesmoke;
   transition-duration: 0.4s;
-  margin-left: 20px;
 }
 
 .button:hover {
-    border: 2px solid lightgray;
-    
-  }
+  border: 2px solid lightgray;
+}
 
 input {
   width: 50%;
   height: 40px;
   border-radius: 12px;
   border: 2px solid lightgray;
-
 }
+
+
