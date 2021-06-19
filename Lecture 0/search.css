@@ -91,7 +91,6 @@ button {
 .advanced-input {
     width: 500px;
     height: 25px;
-    /* margin-left: 250px; */
     border: 1px solid lightgray;
     border-radius: 1px;
     display: inline-table;
