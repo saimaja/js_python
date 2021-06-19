@@ -26,13 +26,28 @@
     </div>
 
     <div>
-      <form action="https://google.com/search">
-       <div class="advanced-form-text"> all these words: <input class="advanced-input" type="text" name="q" placeholder="Type the important words:  tricolor rat terrier"/></div>
-       <div class="advanced-form-text">this exact word or phrase: <input class="advanced-input" type="text" name="q" placeholder="Put exact words in quotes:  'rat terrier'"/> </div>
-       <div class="advanced-form-text">any of these words: <input class="advanced-input" type="text" name="q" placeholder="Type OR between all the words you want:  miniature OR standard"/></div> 
-       <div class="advanced-form-text"> none of these words: <input class="advanced-input" type="text" name="q" placeholder="Put a minus sign just before words you don't want:  -rodent, -'Jack Russell'"/> </div>
+      <form class="advanced-form" action="https://google.com/search">
+        <p>
+            <label> all these words: </label>
+            <input class="advanced-input" type="text" name="q" placeholder="Type the important words:  tricolor rat terrier"/>
+        </p>
+       <p>
+        <label>this exact word or phrase: </label>
+            <input class="advanced-input" type="text" name="q" placeholder="Put exact words in quotes:  'rat terrier'"/> 
+        </p>
+        <p>
+       <label>any of these words: </label>
+           <input class="advanced-input" type="text" name="q" placeholder="Type OR between all the words you want:  miniature OR standard"/>
+    </p>
+   
+ 
+       <label> none of these words: </label>
+       <input class="advanced-input" type="text" name="q" placeholder="Put a minus sign just before words you don't want:  -rodent, -'Jack Russell'"/>
+     
+    </div>
+        
         <button class="advanced-button" type="submit">Advanced Search</button>
-      </form>
+    </form>
     </div>
   </body>
 </html>
